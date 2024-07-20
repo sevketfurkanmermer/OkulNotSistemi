@@ -87,6 +87,12 @@
     <Compile Include="FrmOgretmenMenu.Designer.cs">
       <DependentUpon>FrmOgretmenMenu.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrmSınavNotlar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmSınavNotlar.Designer.cs">
+      <DependentUpon>FrmSınavNotlar.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -106,6 +112,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrmOgretmenMenu.resx">
       <DependentUpon>FrmOgretmenMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrmSınavNotlar.resx">
+      <DependentUpon>FrmSınavNotlar.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

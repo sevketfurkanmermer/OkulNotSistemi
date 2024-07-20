@@ -41,5 +41,11 @@ namespace OkulNotSistemi
             FrmOgrenciler fr = new FrmOgrenciler();
             fr.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            FrmSınavNotlar fr = new FrmSınavNotlar();
+            fr.Show();
+        }
     }
 }
